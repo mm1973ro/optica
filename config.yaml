@@ -1,0 +1,29 @@
+# Optica Configuration File
+
+detection:
+  brightness_threshold: 200  # Minimum brightness for light detection (0-255)
+  min_area: 100  # Minimum contour area in pixels
+  max_area: 10000  # Maximum contour area in pixels
+  blur_kernel: 15  # Gaussian blur kernel size (odd number)
+
+camera:
+  device_id: 0  # Camera device ID
+  width: 640
+  height: 480
+  fps_target: 30
+  mirror_mode: true  # Flip frame horizontally (left hand appears on left side)
+
+roi:
+  enabled: false  # Enable Region of Interest restriction
+  x: 0
+  y: 0
+  width: 640
+  height: 480
+
+gesture:
+  position_threshold: 0.3  # Relative position threshold (0-1)
+
+display:
+  show_video: true
+  confidence_display: true
+  fps_display: true
