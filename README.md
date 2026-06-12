@@ -1,6 +1,6 @@
 # Optica - Sistem de Detecție Semnale Luminoase
 
-Aplicație Python de Computer Vision care detectează semnale luminoase (lanterne) printr-o cameră video și le interpretează ca comenzi de mișcare pentru o platformă cu două roți.
+Aplicație Python de Computer Vision care detectează semnale luminoase (lanterne) printr-o cameră video și le interpretează ca și comenzi de mișcare pentru o platformă cu două roți.
 
 ## Funcționalități
 
